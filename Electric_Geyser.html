@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric Geyser</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      :root {
+        --border: rgb(255, 255, 255);
+      }
+
+      /* headings */
+      h1 {
+        width: 100%;
+        color: white;
+        display: block;
+        background-color: black;
+        font-weight: bolder;
+        font-size: 38px;
+        border: var(--border) solid;
+        border-radius: 9px;
+        padding: 3px 100% 3px 0%; /*different device*/
+        margin: 6px;
+        text-align: center;
+        justify-content: center;
+      }
+      h2 {
+        width: 100%;
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        font-size: 34px;
+        border: var(--border) solid;
+        padding: 3px 100% 3px 0%; /*different device*/
+        margin: 6px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 9px;
+      }
+
+      /* navigation panel */
+      #navbar {
+        display: flex;
+        position: relative;
+      }
+      #navbar h4 {
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        font-size: 25px;
+        border: var(--border) solid;
+        padding: 6px 6px;
+        margin: 9px 9px;
+        width: 70px;
+      }
+      #navbar ul {
+        display: flex;
+        padding: 3px 3px;
+        margin: 6px 6px;
+        border-radius: 6px;
+      }
+      #navbar ul li {
+        background-color: black;
+        list-style: none;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border: var(--border) solid 3px;
+        border-radius: 3px;
+      }
+      #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-weight: bolder;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        padding: 12px;
+        margin: -3px 15px;
+      }
+      #navbar ul li a:hover {
+        color: var(--border);
+        background-color: black;
+      }
+
+      /* content and photo */
+      #header {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        display: flex;
+        height: 344px;
+        width: 1288px;
+        background-color: black;
+        border: var(--border) solid 3px;
+        border-radius: 10px;
+        padding: 9px;
+        margin: 15px;
+      }
+      .infor {
+        position: relative;
+        right: 25px;
+        color: white;
+        background-color: black;
+        border: var(--border) solid 3px;
+        border-radius: 20px;
+        padding: 9px;
+        margin: 9px;
+        width: 50%;
+        font-size: large;
+        font-weight: bolder;
+      }
+      .img {
+        position: relative;
+        left: 25px;
+        height: 350px;
+        width: 50%;
+      }
+
+      .title{
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: -3px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 361px)"
+      href="small_phone.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 481px) and (min-width: 361px)"
+      href="phone.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px) and (min-width: 481px)"
+      href="tab.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1025px) and (min-width: 768px)"
+      href="Ipad.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1281px) and (min-width: 1025px)"
+      href="desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1326px)"
+      href="huge_screen.css"
+    />
+  </head>
+  <body>
+    <nav id="navbar">
+      <!--<h4>filters</h4>-->
+      <ul>
+        <!--<li><a href="#"> 0.5 kg </a></li>
+        <li><a href="#"> 1 kg </a></li>
+        <li><a href="#"> 1.5 kg </a></li>
+        <li><a href="#"> 1.5kg + </a></li>-->
+       <!-- <li><a href="online_order.html" target="_blank"> online order </a></li>
+        <li><a href="about_us.html" target="_blank"> About us </a></li>
+        <li><a href="contact_us.html" target="_blank"> Contact us </a></li>-->
+      </ul>
+    </nav>
+
+    <header id="header">
+      <h1>Parmar Sales</h1>
+      <h2>Electric Geyser</h2>
+<!--
+      <div class="container">
+        <div class="cake_img">
+          <img src="photos/Electric_Geyser1.png" alt="image not available" />
+        </div>
+        <div class="cake_infor">
+          Cake number:104
+          <table class="table">
+            <tr>
+              <th>available in:</th>
+              <th>Rs:</th>
+            </tr>
+            <tr>
+              <td>1 kg</td>
+              <td>Rs 450</td>
+            </tr>
+            <tr>
+              <td>2 kg</td>
+              <td>Rs 850</td>
+            </tr>
+          </table>
+        </div>
+      </div>-->
+      <div class="container">
+        <div class="img">
+          <img src="photos/gas_elec_gaser/gas_Geyser.png" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: LPG | PNG</div> <br>
+          <div class="title">&nbsp;&nbsp;Type: Instantaneous</div> <br>
+          <div class="title">&nbsp;&nbsp;Capacity: 6 LPM</div> <br>
+          <div class="title">&nbsp;&nbsp;Power supply: 3 V DC</div> <br>
+          <div class="title">&nbsp;&nbsp;Heating input (kW): 12 kW</div> <br> <!---->
+          <div class="title">&nbsp;&nbsp;Installation Type: Vertical Wall Mounting</div> <br>
+          <div class="title">&nbsp;&nbsp;available colours: &nbsp;  <input type="button" style="background-color: white;">&nbsp;White</div> <br>
+          <div class="title">&nbsp;&nbsp;Warranty: Product: 2 years</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 4000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/gas_elec_gaser/Electric_Geyser.png" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: Pronto Stylo / Neo / DN</div> <br>
+          <div class="title">&nbsp;&nbsp;Type: Instant Storage</div> <br>
+          <div class="title">&nbsp;&nbsp;Capacity: 3 Litre / 6 Litre</div> <br>
+          <div class="title">&nbsp;&nbsp;Power supply: 230 Volts AC, 50 Hz. Single Phase</div> <br>
+          <div class="title">&nbsp;&nbsp;Wattage (kW): 3 kW</div> <br> <!---->
+          <div class="title">&nbsp;&nbsp;Installation Type: Vertical Wall Mounting</div> <br>
+          <div class="title">&nbsp;&nbsp;available colours: &nbsp;  <input type="button" style="background-color: white;">&nbsp;White&nbsp;&nbsp; <input type="button" style="background-color: rgb(180,180,50);">&nbsp;Ivory </div> <br>
+          <div class="title">&nbsp;&nbsp;Warranty: Product: 2 years, Heating system: 2 years, Inner Tank: 5 years</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 3000/- onward</div> <br>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Theatre</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      :root {
+        --border: rgb(255, 255, 255);
+      }
+
+      /* headings */
+      h1 {
+        width: 100%;
+        color: white;
+        display: block;
+        background-color: black;
+        font-weight: bolder;
+        font-size: 38px;
+        border: var(--border) solid;
+        border-radius: 9px;
+        padding: 3px 100% 3px 0%; /*different device*/
+        margin: 6px;
+        text-align: center;
+        justify-content: center;
+      }
+      h2 {
+        width: 100%;
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        font-size: 34px;
+        border: var(--border) solid;
+        padding: 3px 100% 3px 0%; /*different device*/
+        margin: 6px;
+        text-align: center;
+        justify-content: center;
+        border-radius: 9px;
+      }
+
+      /* navigation panel */
+      #navbar {
+        display: flex;
+        position: relative;
+      }
+      #navbar h4 {
+        color: white;
+        background-color: black;
+        font-weight: bold;
+        font-size: 25px;
+        border: var(--border) solid;
+        padding: 6px 6px;
+        margin: 9px 9px;
+        width: 70px;
+      }
+      #navbar ul {
+        display: flex;
+        padding: 3px 3px;
+        margin: 6px 6px;
+        border-radius: 6px;
+      }
+      #navbar ul li {
+        background-color: black;
+        list-style: none;
+        font-weight: bold;
+        font-size: 1.3rem;
+        border: var(--border) solid 3px;
+        border-radius: 3px;
+      }
+      #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        font-weight: bolder;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        padding: 12px;
+        margin: -3px 15px;
+      }
+      #navbar ul li a:hover {
+        color: var(--border);
+        background-color: black;
+      }
+
+      /* content and photo */
+      #header {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container {
+        display: flex;
+        height: 344px;
+        width: 1288px;
+        background-color: black;
+        border: var(--border) solid 3px;
+        border-radius: 10px;
+        padding: 9px;
+        margin: 15px;
+      }
+      .infor {
+        position: relative;
+        right: 25px;
+        color: white;
+        background-color: black;
+        border: var(--border) solid 3px;
+        border-radius: 20px;
+        padding: 9px;
+        margin: 9px;
+        width: 50%;
+        font-size: large;
+        font-weight: bolder;
+      }
+      .img {
+        position: relative;
+        left: 25px;
+        height: 350px;
+        width: 50%;
+      }
+
+      .title{
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: -3px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 361px)"
+      href="small_phone.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 481px) and (min-width: 361px)"
+      href="phone.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px) and (min-width: 481px)"
+      href="tab.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1025px) and (min-width: 768px)"
+      href="Ipad.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1281px) and (min-width: 1025px)"
+      href="desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1326px)"
+      href="huge_screen.css"
+    />
+  </head>
+  <body>
+
+    <header id="header">
+      <h1>Parmar Sales</h1>
+      <h2>Home Theatre</h2>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_SPA8000B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: SPA8000B/94</div> <br>
+          <div class="title">&nbsp;&nbsp;the Ultimate bass Performance</div> <br>
+          <div class="title">&nbsp;&nbsp;Connect to all your gear</div> <br>
+          <div class="title">&nbsp;&nbsp;Simple to use: with FM tuning | USB | SD </div> <br>
+          <div class="title">&nbsp;&nbsp;&nbsp;works with all Bluetooth -enable device</div> <br>
+          <div class="title">&nbsp;&nbsp;Great sound quality</div> <br> <!---->
+          <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 5000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_SPA5190B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+            <div class="title">&nbsp;&nbsp;Model: SPA5190B/94</div> <br>
+            <div class="title">&nbsp;&nbsp;the Ultimate bass Performance</div> <br>
+            <div class="title">&nbsp;&nbsp;Rich bass</div> <br>
+            <div class="title">&nbsp;&nbsp;Simple to use: with Bluetooth | FM tuning | USB | SD </div> <br>
+            <div class="title">&nbsp;&nbsp;&nbsp;works with all MP3, PC, TV, CD and more</div> <br>
+            <div class="title">&nbsp;&nbsp;Great sound quality | Bass Boost technology with level control</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+            <div class="title">&nbsp;&nbsp;starting price: 5000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_SPA5162B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+            <div class="title">&nbsp;&nbsp;Model: SPA5162B/94</div> <br>
+            <div class="title">&nbsp;&nbsp;Rich, complex sound</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;the Ultimate bass Performance</div> <br>
+            <div class="title">&nbsp;&nbsp;Rich bass</div> <br>
+            <div class="title">&nbsp;&nbsp;Connect to all your gear</div> <br>
+            <div class="title">&nbsp;&nbsp;Simple to use works with all MP3, PC, TV, CD and more</div> <br>
+            <div class="title">&nbsp;&nbsp;&nbsp;works with all Bluetooth -enable device</div> <br>
+            <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+            <div class="title">&nbsp;&nbsp;starting price: 5000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_SPA4040B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+            <div class="title">&nbsp;&nbsp;Model: SPA4040B/94</div> <br>
+            <div class="title">&nbsp;&nbsp;Rich Bass</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;the Ultimate bass Performance</div> <br>
+            <div class="title">&nbsp;&nbsp;Connect to all your gear</div> <br>
+            <div class="title">&nbsp;&nbsp;Simple to use works with all MP3, PC, TV, CD and more</div> <br>
+            <div class="title">&nbsp;&nbsp;&nbsp;works with all Bluetooth -enable device</div> <br>
+            <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+            <div class="title">&nbsp;&nbsp;starting price: 5000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_SPA8140B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+            <div class="title">&nbsp;&nbsp;Model: SPA8140B/94</div> <br>
+            <div class="title">&nbsp;&nbsp;Rich, complex sound</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;the Ultimate bass Performance: Rich bass Performance</div> <br>
+            <div class="title">&nbsp;&nbsp;Connect to all your gear</div> <br>
+            <div class="title">&nbsp;&nbsp;Simple to use works with all MP3, PC, TV, CD and more</div> <br>
+            <div class="title">&nbsp;&nbsp;&nbsp;works with all Bluetooth -enable device</div> <br>
+            <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+            <div class="title">&nbsp;&nbsp;starting price: 3000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_MMS2220B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+            <div class="title">&nbsp;&nbsp;Model: SPA2220B/94</div> <br>
+            <div class="title">&nbsp;&nbsp;Impressive sound: Loud and clear sound</div> <br>
+            <div class="title">&nbsp;&nbsp;Great sound quality</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;enhanced listening experience -music, games, movies, TV and online videos</div> <br>
+            <div class="title">&nbsp;&nbsp;Easy connection</div> <br>
+            <div class="title">&nbsp;&nbsp;&nbsp;works with all Bluetooth -enable device</div> <br>
+            <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+            <div class="title">&nbsp;&nbsp;starting price: 8500/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_MMS2200B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+            <div class="title">&nbsp;&nbsp;Model: MMS2200B/94</div> <br>
+            <div class="title">&nbsp;&nbsp;Contemporary design</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;Rich, complex sound</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;quality sound Performance</div> <br> <!---->
+            <div class="title">&nbsp;&nbsp;&nbsp;works with all Bluetooth -enable device</div> <br>
+            <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+            <div class="title">&nbsp;&nbsp;USB | SD card direct slot</div> <br>
+            <div class="title">&nbsp;&nbsp;FM tuner for radio enjoyment</div> <br>
+            <div class="title">&nbsp;&nbsp;starting price: 8500/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_MMS8085B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: MMS8085B/94</div> <br>
+          <div class="title">&nbsp;&nbsp;Rich bass, Lifelike stereo sound</div> <br>
+          <div class="title">&nbsp;&nbsp;Easy connection in all the media</div> <br>
+          <div class="title">&nbsp;&nbsp;works with MAC and PC</div> <br>
+          <div class="title">&nbsp;&nbsp;works with all compartible stereo bluetooth device</div> <br> 
+          <div class="title">&nbsp;&nbsp;enhanced listening experience</div> <br>
+          <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 5000/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_MMS6080B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: MMS6080B/94</div> <br>
+          <div class="title">&nbsp;&nbsp;Rich bass, Lifelike stereo sound</div> <br>
+          <div class="title">&nbsp;&nbsp;Easy connection in all the media</div> <br>
+          <div class="title">&nbsp;&nbsp;works with MAC and PC</div> <br>
+          <div class="title">&nbsp;&nbsp;works with all compartible stereo bluetooth device</div> <br> 
+          <div class="title">&nbsp;&nbsp;USB Direct for easy MP3 music Playback</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 2500/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_MMS2625B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: MMS2625B/94</div> <br>
+          <div class="title">&nbsp;&nbsp;Connect to all your gear</div> <br>
+          <div class="title">&nbsp;&nbsp;-MP3, PC, TV, CD and more, music, FM tuner for radio enjoyment</div> <br>
+          <div class="title">&nbsp;&nbsp;Listen with pleasure</div> <br>
+          <div class="title">&nbsp;&nbsp;Easy connection in all the media</div> <br>
+          <div class="title">&nbsp;&nbsp;wireless Bluetooth</div> <br>
+          <div class="title">&nbsp;&nbsp;USB port for changing other device</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 2500/- onward</div> <br>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="img">
+          <img src="photos/Home_Theatre/model_MMS2580B_94.PNG" alt="image not available" />
+        </div>
+        <div class="infor">
+          <div class="title">&nbsp;&nbsp;Model: MMS2580B/94</div> <br>
+          <div class="title">&nbsp;&nbsp;Connect to all your gear - USB | SD</div> <br>
+          <div class="title">&nbsp;&nbsp;Contemporary design</div> <br>
+          <div class="title">&nbsp;&nbsp;Listen with pleasure: Rich Bass</div> <br>
+          <div class="title">&nbsp;&nbsp;Easy connection in all the media</div> <br>
+          <div class="title">&nbsp;&nbsp;Great sound quality</div> <br>
+          <div class="title">&nbsp;&nbsp;starting price: 2500/- onward</div> <br>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
